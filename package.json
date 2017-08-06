@@ -11,8 +11,8 @@
     "deploy": "yarn run blendid -- build && node deploy.js"
   },
   "dependencies": {
-    "blendid": "^4.1.1",
     "aws-cli-js": "^2.0.2",
+    "blendid": "^4.2.0",
     "s3": "^4.4.0"
   }
 }
