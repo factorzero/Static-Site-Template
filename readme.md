@@ -36,7 +36,7 @@ yarn install
 terminal:
 
 ```
- yarn run start
+ yarn start
 ```
 
 This builds the projects and watches all files, compiling them as you develop and refreshing with browserSync and webpack. Files are output to a directory called
@@ -46,7 +46,7 @@ This builds the projects and watches all files, compiling them as you develop an
 terminal:
 
 ```
- yarn run build
+ yarn build
 ```
 
 Compiles all file to /public without browserSync and file watching.
@@ -55,13 +55,14 @@ Compiles all file to /public without browserSync and file watching.
 terminal:
 
 ```
- yarn run deploy
+ yarn deploy
 ```
 
 Does the same as Build, and then uploads any files in the /public directory to an AWS S3 Bucket for release.
 
 ### AWS Settings
 Input your settings for AWS into `deploy.js`
+
 ```
 var BUCKET_NAME = "";
 var ACCESS_KEY_ID = "";
