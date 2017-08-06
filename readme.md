@@ -1,27 +1,8 @@
 # Getting Started
 
-## Install Node
-- installing via Homebrew is recommended
-- if already installed check the version
-
- - install version 6 or 7. (there is issue with node 8)
-
-terminal:
- ```
- // node 6 or node 7
- brew install node@7
-
- node --version
- ```
-
-## Install Yarn:
-If you have HomeBrew:
-
-```
-brew install yarn
-```
-
-https://yarnpkg.com/lang/en/docs/install/
+## Requirements
+ - Node: version 6+
+ - Yarn: latest
 
 ## Install Dependencies
 
