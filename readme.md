@@ -33,23 +33,17 @@ terminal:
 Compiles all file to /public without browserSync and file watching.
 
 ## Deploy
+
+Before using the `deploy` command rename `deploy_config_sample.js` to `deploy_config.js` and fill in your AWS details.
+
 terminal:
 
 ```
  yarn deploy
 ```
 
-Does the same as Build, and then uploads any files in the /public directory to an AWS S3 Bucket for release.
+Does the same as Build, and then uploads any files in the /public directory to an AWS S3 Bucket for release. Cation: this uses the sync command, deleting any files in the bucket that do not exist locally in the `public` folder.
 
-### AWS Settings
-Input your settings for AWS into `deploy.js`
-
-```
-var BUCKET_NAME = "";
-var ACCESS_KEY_ID = "";
-var SECRET_ACCESS_KEY = "";
-var REGION = ""; // example: ap-northeast-1
-```
 
 ## Dependencies
 ### Blendid
