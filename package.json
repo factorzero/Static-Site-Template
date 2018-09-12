@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "aws-cli-js": "^2.0.2",
-    "blendid": "^4.2.0",
+    "blendid": "^4.4.3",
     "s3": "^4.4.0"
   }
 }
